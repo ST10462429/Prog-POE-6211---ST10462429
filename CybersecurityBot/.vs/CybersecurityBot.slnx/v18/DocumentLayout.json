@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\source\\repos\\CybersecurityBot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|c:\\users\\lab_services_student\\source\\repos\\cybersecuritybot\\cybersecuritybot\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|solutionrelative:cybersecuritybot\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|c:\\users\\lab_services_student\\source\\repos\\cybersecuritybot\\cybersecuritybot\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|solutionrelative:cybersecuritybot\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|c:\\users\\lab_services_student\\source\\repos\\cybersecuritybot\\cybersecuritybot\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|solutionrelative:cybersecuritybot\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|c:\\users\\lab_services_student\\source\\repos\\cybersecuritybot\\cybersecuritybot\\responseengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|solutionrelative:cybersecuritybot\\responseengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|c:\\users\\lab_services_student\\source\\repos\\cybersecuritybot\\cybersecuritybot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|solutionrelative:cybersecuritybot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Responseengine.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CybersecurityBot\\CybersecurityBot\\Responseengine.cs",
+              "RelativeDocumentMoniker": "CybersecurityBot\\Responseengine.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CybersecurityBot\\CybersecurityBot\\Responseengine.cs",
+              "RelativeToolTip": "CybersecurityBot\\Responseengine.cs",
+              "ViewState": "AgIAAG8AAADARmZmZmbuv3oAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T15:02:03.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AudioPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CybersecurityBot\\CybersecurityBot\\AudioPlayer.cs",
+              "RelativeDocumentMoniker": "CybersecurityBot\\AudioPlayer.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CybersecurityBot\\CybersecurityBot\\AudioPlayer.cs",
+              "RelativeToolTip": "CybersecurityBot\\AudioPlayer.cs",
+              "ViewState": "AgIAAAoAAAAAmpmZmbkzwAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T14:52:09.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Chatbot.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CybersecurityBot\\CybersecurityBot\\Chatbot.cs",
+              "RelativeDocumentMoniker": "CybersecurityBot\\Chatbot.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CybersecurityBot\\CybersecurityBot\\Chatbot.cs",
+              "RelativeToolTip": "CybersecurityBot\\Chatbot.cs",
+              "ViewState": "AgIAAF8AAADgzMzMzMwSwG0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T13:53:31.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsoleUI.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CybersecurityBot\\CybersecurityBot\\ConsoleUI.cs",
+              "RelativeDocumentMoniker": "CybersecurityBot\\ConsoleUI.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CybersecurityBot\\CybersecurityBot\\ConsoleUI.cs",
+              "RelativeToolTip": "CybersecurityBot\\ConsoleUI.cs",
+              "ViewState": "AgIAAEQAAACAMzMzMzPzv1oAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T13:14:16.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CybersecurityBot\\CybersecurityBot\\Program.cs",
+              "RelativeDocumentMoniker": "CybersecurityBot\\Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CybersecurityBot\\CybersecurityBot\\Program.cs",
+              "RelativeToolTip": "CybersecurityBot\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T13:10:40.789Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
