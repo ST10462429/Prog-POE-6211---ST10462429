@@ -11,6 +11,7 @@ namespace CybersecurityBot
         public static void PlayGreeting(string filePath)
         {
             //looking for wav file
+            string path = "file_example_WAV_1MG.wav";
             if (File.Exists(filePath))
             {
                 try
