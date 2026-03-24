@@ -52,19 +52,28 @@ namespace CybersecurityBot
         //typing effect 
         public static void TypeEffect(string message, ConsoleColor color = ConsoleColor.White)
         {
+            if (string.IsNullOrEmpty(message))
+                return;
             Console.ForegroundColor = color;
 
             //loop for each character 
-            {
-                Console.Write(c);
-                Thread.Sleep(18);
-            }
-            Console.WriteLine();
-            Console.ResetColor();
+            foreach (char c in message) 
+                {
+                    Console.Write(c);
+                    Thread.Sleep(18);
+                }
+                    Console.WriteLine();
+                Console.ResetColor();
+                }
+                
+            
         
-            }
+            
         
         public static void BotSay(string message) {
+
+            if (string.IsNullOrEmpty(message))
+                return;
             Console.ForegroundColor = ConsoleColor.Black;
             Console.Write("\n[BOT]");
             Console.ResetColor();
@@ -77,10 +86,14 @@ namespace CybersecurityBot
             Console.ForegroundColor = ConsoleColor.Black;
             Console.Write("\n [YOU] ->");
             Console.ResetColor();
+
             Console.ForegroundColor = ConsoleColor.White;
             string input = Console.ReadLine();
-            Console.ResetColor();
-            return input;
+
+            if (input == null)
+                return "";
+            
+            return input.Trim();
         }
         //print a warning message 
         public static void PrintWarning(string message)

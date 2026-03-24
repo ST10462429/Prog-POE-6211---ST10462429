@@ -2,10 +2,10 @@
 
  class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         //instance 
-        Chatbot bot = new Chatbot();
+        var bot = new Chatbot();
         bot.Run();
     }
 }

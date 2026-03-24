@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CybersecurityBot
 {
-   public class Chatbot
+    public class Chatbot
     {
         // Private fields 
         //Wav greeting file = output folder 
@@ -81,19 +81,30 @@ namespace CybersecurityBot
             Thread.Sleep(200);
             ConsoleUI.BotSay($"Great to meet you, {userName}! Ican help you with topics like:");
             ConsoleUI.TypeEffect("1.Passwords      2.Phising     3.Safe Browsing    4.Malware    5.2FA", ConsoleColor.DarkCyan);
-            ConsoleUI.BotSay("Type 'what can i ask you about' to see all topics or 'exit' to quit.");
-            ConsoleUI.PrintDivider();
+            
+            ///readline
         }
 
         //chat loop 
-         private void ChatLoop()
+        private void ChatLoop()
         {
-            while(true) {
+            while (true)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("\n Please select an option:");
+                Console.WriteLine(" 1. Passwords safety ");
+                Console.WriteLine("  2. Phishing");
+                Console.WriteLine("  3. Safe Browsing");
+                Console.WriteLine("  4. Malware");
+                Console.WriteLine("  5. Two-Factor Authentication (2FA)");
+                Console.WriteLine("  6. How are you?");
+                Console.WriteLine("  7. What is your purpose?");
+                Console.ResetColor();
                 // get user input 
                 string userInput = ConsoleUI.UserPrompt();
 
                 //VALIDATE 
-                if (string.IsNullOrEmpty(userInput))
+                if (userInput.Length == 0)
                 {
 
                     //handling 
@@ -112,7 +123,7 @@ namespace CybersecurityBot
 
                 //get and display bot response 
                 string response = responseEngine.GetResponse(userInput);
-                if (response ! == null)
+                if (response! == null)
                 {
 
                     ConsoleUI.BotSay(response);
@@ -121,11 +132,13 @@ namespace CybersecurityBot
                 {
                     //if no match 
 
-                    ConsoleUI.BotSay(responseEngine.GetFallbackResponse());
+
                 }
-                ConsoleUI.PrintDivider();
-        }
+            }
         }
     }
-
 }
+        
+    
+
+

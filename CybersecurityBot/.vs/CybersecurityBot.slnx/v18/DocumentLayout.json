@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Documents\\Prog-POE-6211---ST10462429\\CybersecurityBot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|c:\\users\\lab_services_student\\documents\\prog-poe-6211---st10462429\\cybersecuritybot\\cybersecuritybot\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|solutionrelative:cybersecuritybot\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|c:\\users\\lab_services_student\\documents\\prog-poe-6211---st10462429\\cybersecuritybot\\cybersecuritybot\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|solutionrelative:cybersecuritybot\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|c:\\users\\lab_services_student\\documents\\prog-poe-6211---st10462429\\cybersecuritybot\\cybersecuritybot\\responseengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|solutionrelative:cybersecuritybot\\responseengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|c:\\users\\lab_services_student\\documents\\prog-poe-6211---st10462429\\cybersecuritybot\\cybersecuritybot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|solutionrelative:cybersecuritybot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|c:\\users\\lab_services_student\\documents\\prog-poe-6211---st10462429\\cybersecuritybot\\cybersecuritybot\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|solutionrelative:cybersecuritybot\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|c:\\users\\lab_services_student\\documents\\prog-poe-6211---st10462429\\cybersecuritybot\\cybersecuritybot\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802B79A0-D683-A235-B921-BE8838E3A936}|CybersecurityBot\\CybersecurityBot.csproj|solutionrelative:cybersecuritybot\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +30,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Responseengine.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Prog-POE-6211---ST10462429\\CybersecurityBot\\CybersecurityBot\\Responseengine.cs",
+              "RelativeDocumentMoniker": "CybersecurityBot\\Responseengine.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Prog-POE-6211---ST10462429\\CybersecurityBot\\CybersecurityBot\\Responseengine.cs",
+              "RelativeToolTip": "CybersecurityBot\\Responseengine.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAgwAIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:07:33.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Prog-POE-6211---ST10462429\\CybersecurityBot\\CybersecurityBot\\Program.cs",
+              "RelativeDocumentMoniker": "CybersecurityBot\\Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Prog-POE-6211---ST10462429\\CybersecurityBot\\CybersecurityBot\\Program.cs",
+              "RelativeToolTip": "CybersecurityBot\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:40:04.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConsoleUI.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Prog-POE-6211---ST10462429\\CybersecurityBot\\CybersecurityBot\\ConsoleUI.cs",
+              "RelativeDocumentMoniker": "CybersecurityBot\\ConsoleUI.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Prog-POE-6211---ST10462429\\CybersecurityBot\\CybersecurityBot\\ConsoleUI.cs",
+              "RelativeToolTip": "CybersecurityBot\\ConsoleUI.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAADwv18AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:38:57.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AudioPlayer.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Prog-POE-6211---ST10462429\\CybersecurityBot\\CybersecurityBot\\AudioPlayer.cs",
               "RelativeDocumentMoniker": "CybersecurityBot\\AudioPlayer.cs",
@@ -35,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Chatbot.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Prog-POE-6211---ST10462429\\CybersecurityBot\\CybersecurityBot\\Chatbot.cs",
               "RelativeDocumentMoniker": "CybersecurityBot\\Chatbot.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Prog-POE-6211---ST10462429\\CybersecurityBot\\CybersecurityBot\\Chatbot.cs",
               "RelativeToolTip": "CybersecurityBot\\Chatbot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAwwFcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T20:09:19.858Z",
               "EditorCaption": ""
