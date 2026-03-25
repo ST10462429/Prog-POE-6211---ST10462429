@@ -1,88 +1,66 @@
-﻿using System;
-
-namespace CybersecurityBot
+﻿namespace CybersecurityBot
 {
     public class ResponseEngine
     {
-        private string userName;
+        private string name;
 
-        public ResponseEngine(string name)
+        public ResponseEngine(string userName)
         {
-            userName = name;
+            name = userName;
         }
 
-        // -------------------------------------------------------
-        // GetResponse(input)
-        // Matches the number the user typed to a response
-        // -------------------------------------------------------
         public string GetResponse(string input)
         {
             switch (input)
             {
                 case "1":
-                    return $"PASSWORD SAFETY — {userName}:\n\n" +
-                           "  - Use at least 12 characters with letters, numbers and symbols\n" +
-                           "  - Never reuse passwords across different sites\n" +
-                           "  - Use a password manager like Bitwarden or LastPass\n" +
-                           "  - Avoid obvious passwords like password123\n" +
-                           "  - Change passwords immediately if you suspect a breach";
+                    return $"PASSWORD SAFETY — {name}\n\n" +
+                           "• Use strong passwords (at least 12 characters)\n" +
+                           "• Include letters, numbers, and symbols\n" +
+                           "• Do not reuse passwords across sites\n" +
+                           "• Use a password manager\n" +
+                           "• Avoid obvious passwords like 'password123'";
 
                 case "2":
-                    return $"PHISHING — {userName}:\n\n" +
-                           "  - Watch for emails asking for urgent action or personal info\n" +
-                           "  - Check that links match the sender's real domain\n" +
-                           "  - Look for poor spelling and grammar in official-looking emails\n" +
-                           "  - Never open unexpected attachments from unknown senders\n" +
-                           "  - Always verify by contacting the company directly";
+                    return $"PHISHING — {name}\n\n" +
+                           "• Be cautious of urgent or suspicious emails\n" +
+                           "• Do not click unknown links\n" +
+                           "• Check the sender’s email address carefully\n" +
+                           "• Avoid downloading unexpected attachments\n" +
+                           "• Verify messages with the company directly";
 
                 case "3":
-                    return $"SAFE BROWSING — {userName}:\n\n" +
-                           "  - Always check for https:// before entering personal info\n" +
-                           "  - Avoid public Wi-Fi for banking or sensitive tasks\n" +
-                           "  - Keep your browser and plugins updated\n" +
-                           "  - Use a VPN on public networks\n" +
-                           "  - Do not click suspicious pop-ups or ads";
+                    return $"SAFE BROWSING — {name}\n\n" +
+                           "• Only enter information on HTTPS websites\n" +
+                           "• Avoid public Wi-Fi for sensitive activities\n" +
+                           "• Keep your browser updated\n" +
+                           "• Do not click suspicious ads or pop-ups\n" +
+                           "• Use trusted websites only";
 
                 case "4":
-                    return $"MALWARE — {userName}:\n\n" +
-                           "  - Types include viruses, trojans, ransomware and spyware\n" +
-                           "  - Keep your antivirus software up to date\n" +
-                           "  - Do not download software from unverified sources\n" +
-                           "  - Back up your data regularly to protect against ransomware\n" +
-                           "  - Scan USB drives before opening files on them";
+                    return $"MALWARE — {name}\n\n" +
+                           "• Malware includes viruses, spyware, and ransomware\n" +
+                           "• Install and update antivirus software\n" +
+                           "• Do not download files from unknown sources\n" +
+                           "• Scan USB devices before use\n" +
+                           "• Back up your data regularly";
 
                 case "5":
-                    return $"TWO-FACTOR AUTHENTICATION — {userName}:\n\n" +
-                           "  - 2FA adds a second layer of security beyond your password\n" +
-                           "  - Use an authenticator app like Google Authenticator or Authy\n" +
-                           "  - Enable 2FA on all important accounts like email and banking\n" +
-                           "  - SMS codes are better than nothing but apps are more secure\n" +
-                           "  - Even if your password is stolen 2FA keeps you protected";
+                    return $"TWO-FACTOR AUTHENTICATION (2FA) — {name}\n\n" +
+                           "• Adds an extra layer of security\n" +
+                           "• Use authenticator apps instead of SMS when possible\n" +
+                           "• Enable 2FA on email, banking, and social media\n" +
+                           "• Protects your account even if your password is stolen";
 
                 case "6":
-                    return $"I am running at full capacity, {userName}! Always ready to help you stay safe online.";
+                    return $"I'm doing great, {name}! I'm always ready to help you stay safe online 😄";
 
                 case "7":
-                    return $"My purpose is to help you, {userName}, understand cybersecurity threats and best practices!\n" +
-                           "  Select any option from the menu to learn more.";
+                    return $"My purpose is to help you understand cybersecurity risks and stay safe online, {name}!";
 
                 default:
-                    // Return null to trigger invalid choice warning
                     return null;
             }
-        }
-
-        // -------------------------------------------------------
-        // IsExitCommand — kept for compatibility but 0 handles exit now
-        // -------------------------------------------------------
-        public bool IsExitCommand(string input)
-        {
-            return input.Trim() == "0";
-        }
-
-        public string GetFallbackResponse()
-        {
-            return $"Invalid choice, {userName}. Please enter a number between 0 and 7.";
         }
     }
 }

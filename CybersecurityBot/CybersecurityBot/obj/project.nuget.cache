@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/nYBx5pzED4=",
+  "dgSpecHash": "4mSGM5WURHQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\lab_services_student\\Documents\\Prog-POE-6211---ST10462429\\CybersecurityBot\\CybersecurityBot\\CybersecurityBot.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\lab_services_student\\.nuget\\packages\\system.speech\\10.0.5\\system.speech.10.0.5.nupkg.sha512",
     "C:\\Users\\lab_services_student\\.nuget\\packages\\system.windows.extensions\\10.0.5\\system.windows.extensions.10.0.5.nupkg.sha512"
   ],
   "logs": []

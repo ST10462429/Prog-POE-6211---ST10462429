@@ -1,12 +1,11 @@
-﻿namespace CybersecurityBot;
-
- class Program
+﻿namespace CybersecurityBot
 {
-    public static void Main(string[] args)
+    class Program
     {
-        //instance 
-        var bot = new Chatbot();
-        bot.Run();
+        static void Main(string[] args)
+        {
+            Chatbot bot = new Chatbot();
+            bot.Run();
+        }
     }
 }
-

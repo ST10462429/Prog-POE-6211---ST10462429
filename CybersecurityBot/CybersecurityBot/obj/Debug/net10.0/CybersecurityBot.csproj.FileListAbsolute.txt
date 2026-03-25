@@ -17,3 +17,5 @@ C:\Users\lab_services_student\Documents\Prog-POE-6211---ST10462429\Cybersecurity
 C:\Users\lab_services_student\Documents\Prog-POE-6211---ST10462429\CybersecurityBot\CybersecurityBot\obj\Debug\net10.0\CybersecurityBot.pdb
 C:\Users\lab_services_student\Documents\Prog-POE-6211---ST10462429\CybersecurityBot\CybersecurityBot\obj\Debug\net10.0\CybersecurityBot.genruntimeconfig.cache
 C:\Users\lab_services_student\Documents\Prog-POE-6211---ST10462429\CybersecurityBot\CybersecurityBot\obj\Debug\net10.0\ref\CybersecurityBot.dll
+C:\Users\lab_services_student\Documents\Prog-POE-6211---ST10462429\CybersecurityBot\CybersecurityBot\bin\Debug\net10.0\System.Speech.dll
+C:\Users\lab_services_student\Documents\Prog-POE-6211---ST10462429\CybersecurityBot\CybersecurityBot\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Speech.dll
