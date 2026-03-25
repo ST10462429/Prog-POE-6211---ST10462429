@@ -9,7 +9,8 @@ namespace CybersecurityBot
         // Private fields 
         //Wav greeting file = output folder 
         private const string WavFilePath = "greeting.wav";
-        private Responseengine responseEngine;
+        private ResponseEngine responseEngine;
+        private string userName; // 
         //response engine instance 
         //main method for chatbot 
         // im calling it from program.cs
@@ -37,10 +38,10 @@ namespace CybersecurityBot
             ConsoleUI.PrintDivider();
 
 
-            string userName = GetUserName(); // collect user input 
+            userName = GetUserName(); // collect user input 
 
             //initialise the response engine with users name 
-            responseEngine = new Responseengine(userName);
+            responseEngine = new ResponseEngine(userName);
 
             //display personalised welcome message 
             DisplayWelcomeMessage(userName);
@@ -101,43 +102,62 @@ namespace CybersecurityBot
                 Console.WriteLine("  7. What is your purpose?");
                 Console.ResetColor();
                 // get user input 
-                string userInput = ConsoleUI.UserPrompt();
 
-                //VALIDATE 
-                if (userInput.Length == 0)
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.Write("\n  Enter your choice (0-7): ");
+                Console.ResetColor();
+                string input = Console.ReadLine();
+
+                if (input == null)
+                    continue;
+
+                if (input == null)
+                    continue;
+
+                // Trim whitespace
+                input = input.Trim();
+
+                // Check for empty
+                if (input == "")
                 {
-
-                    //handling 
-                    ConsoleUI.PrintWarning("You did not type anything. Please enter a question or command.");
-                    continue; // skips to next loop 
+                    ConsoleUI.PrintWarning("You did not enter anything. Please enter a number between 0 and 7.");
+                    continue;
                 }
 
-                //check for exit command 
-                if (responseEngine.IsExitCommand(userInput))
+                // Check for exit
+                if (input == "0")
                 {
-                    //display goodbye message 
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.WriteLine($"\n  Stay safe online, {userName}! Goodbye!");
+                    Console.ResetColor();
                     ConsoleUI.PrintDivider();
-                    Thread.Sleep(1000);
+                    System.Threading.Thread.Sleep(1000);
                     break;
                 }
 
-                //get and display bot response 
-                string response = responseEngine.GetResponse(userInput);
-                if (response! == null)
-                {
+                // Get response based on number selected
+                string response = responseEngine.GetResponse(input);
 
-                    ConsoleUI.BotSay(response);
+                if (response != null)
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.Write("\n  [BOT] ");
+                    Console.ResetColor();
+                    Console.WriteLine(response);
                 }
                 else
                 {
-                    //if no match 
-
-
+                    ConsoleUI.PrintWarning("Invalid choice. Please enter a number between 0 and 7.");
                 }
+
+                ConsoleUI.PrintDivider();
             }
         }
     }
-}
+            }
+        
+    
+
         
     
 

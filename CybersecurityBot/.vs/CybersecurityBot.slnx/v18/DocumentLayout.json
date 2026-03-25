@@ -30,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Responseengine.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Prog-POE-6211---ST10462429\\CybersecurityBot\\CybersecurityBot\\Responseengine.cs",
-              "RelativeDocumentMoniker": "CybersecurityBot\\Responseengine.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Prog-POE-6211---ST10462429\\CybersecurityBot\\CybersecurityBot\\Responseengine.cs",
-              "RelativeToolTip": "CybersecurityBot\\Responseengine.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAgwAIAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T07:07:33.72Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -55,8 +42,7 @@
               "RelativeToolTip": "CybersecurityBot\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T06:40:04.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T06:40:04.751Z"
             },
             {
               "$type": "Document",
@@ -68,8 +54,7 @@
               "RelativeToolTip": "CybersecurityBot\\ConsoleUI.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAADwv18AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T06:38:57.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T06:38:57.528Z"
             },
             {
               "$type": "Document",
@@ -81,8 +66,7 @@
               "RelativeToolTip": "CybersecurityBot\\AudioPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T20:15:48.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T20:15:48.817Z"
             },
             {
               "$type": "Document",
@@ -92,10 +76,22 @@
               "RelativeDocumentMoniker": "CybersecurityBot\\Chatbot.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Prog-POE-6211---ST10462429\\CybersecurityBot\\CybersecurityBot\\Chatbot.cs",
               "RelativeToolTip": "CybersecurityBot\\Chatbot.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAwwFcAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T20:09:19.858Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Responseengine.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Prog-POE-6211---ST10462429\\CybersecurityBot\\CybersecurityBot\\Responseengine.cs",
+              "RelativeDocumentMoniker": "CybersecurityBot\\Responseengine.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Prog-POE-6211---ST10462429\\CybersecurityBot\\CybersecurityBot\\Responseengine.cs",
+              "RelativeToolTip": "CybersecurityBot\\Responseengine.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowFcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:07:33.72Z"
             }
           ]
         }
